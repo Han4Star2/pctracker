@@ -5,7 +5,7 @@ import { createClient } from '@supabase/supabase-js';
 const bot = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 const sb = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY); // Service Key! nicht anon
 
-const GUILD_ID = 'DEINE_SERVER_ID';
+const GUILD_ID = '1494736501668446209';
 
 bot.on('messageCreate', async msg => {
   if (msg.guildId !== GUILD_ID) return;
