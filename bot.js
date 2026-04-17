@@ -1,3 +1,4 @@
+console.log("URL:", process.env.SUPABASE_URL);
 // bot.js — deploy auf Railway oder Render
 import { Client, GatewayIntentBits } from 'discord.js';
 import { createClient } from '@supabase/supabase-js';
