@@ -71,3 +71,4 @@ bot.on('guildMemberRemove', async member => {
 });
 
 bot.login(process.env.DISCORD_TOKEN);
+// hi
